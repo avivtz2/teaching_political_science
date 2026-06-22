@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>מאגר עזר - מדעי המדינה ואזרחות</title>
+    <title>עזרים למורי מדעי המדינה</title>
     
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -622,9 +622,9 @@
         }
 
         // פונקציות לטיפול בחלון המודאלי והאינפוגרפיקה
-        function openModal(imageUrl, title) {
+        function openModal(imageUrl) {
             currentModalImage = imageUrl;
-            currentModalTitle = title;
+            currentModalTitle = selectedArticle.title;
             isModalOpen = true;
             document.body.style.overflow = 'hidden'; 
             renderApp();
@@ -936,7 +936,7 @@
                     // כפתור חכם לאינפוגרפיקה שפותח את המודל החדש
                     if (resource.type === 'infographic') {
                         return `
-                            <button onclick="openModal('${resource.imageUrl}', '${selectedArticle.title}')" class="group flex items-center justify-between p-5 bg-white border border-gray-200 rounded-xl hover:border-[#0B192C] hover:shadow-lg transition-all text-right w-full">
+                            <button onclick="openModal('${resource.imageUrl}')" class="group flex items-center justify-between p-5 bg-white border border-gray-200 rounded-xl hover:border-[#0B192C] hover:shadow-lg transition-all text-right w-full">
                                 <div class="flex items-center gap-4">
                                     <div class="w-12 h-12 flex items-center justify-center bg-gray-50 rounded-full group-hover:bg-[#0B192C] transition-colors">
                                         <i class="fa-solid ${resource.icon} ${resource.color} text-2xl group-hover:text-white transition-colors"></i>
