@@ -72,7 +72,7 @@
     <div id="root" class="flex-1 flex flex-col relative"></div>
 
     <script>
-        // נתוני הסילבוס המעודכנים (כולל תמונות אינפוגרפיקה מקומיות)
+        // נתוני הסילבוס המעודכנים (כולל תמונות אינפוגרפיקה לכל המאמרים)
         const syllabusData = [
             {
                 id: "chapter-1",
@@ -282,7 +282,8 @@
                             { title: "מצגת השיעור", url: "https://docs.google.com/presentation/d/1T8KaFDpywIjuneD1xHR-jkkzmxIv4WWQ/edit?usp=drive_link&ouid=102051687740778645730&rtpof=true&sd=true", icon: "fa-file-powerpoint", color: "text-orange-500", type: "link" },
                             { title: "מאמר מקורי", url: "https://drive.google.com/file/d/1ZjbkdOvI25xUEX80T7VKpCbsYRd4IuJp/view?usp=drive_link", icon: "fa-file-pdf", color: "text-red-600", type: "link" },
                             { title: "תקציר המאמר", url: "https://drive.google.com/file/d/1z6yyq6KVNK_TE01SfOWwb920mowjrj-x/view?usp=drive_link", icon: "fa-file-lines", color: "text-blue-600", type: "link" },
-                            { title: "בוחן לתרגול", url: "https://docs.google.com/forms/d/1cm_l_FwHS0pJ4u7KtsGPo-iGVGZsJVnrsxtNWtGab3w/copy", icon: "fa-clipboard-check", color: "text-indigo-600", type: "link" }
+                            { title: "בוחן לתרגול", url: "https://docs.google.com/forms/d/1cm_l_FwHS0pJ4u7KtsGPo-iGVGZsJVnrsxtNWtGab3w/copy", icon: "fa-clipboard-check", color: "text-indigo-600", type: "link" },
+                            { title: "אינפוגרפיקה", url: "#", type: "infographic", imageUrl: "info_law.png", icon: "fa-project-diagram", color: "text-purple-600" }
                         ]
                     },
                     {
@@ -315,7 +316,8 @@
                             { title: "מצגת השיעור", url: "https://docs.google.com/presentation/d/1Vw3GtAZ6rlNASudp5DJpipJAI5SEQNh8/edit?usp=drive_link&ouid=102051687740778645730&rtpof=true&sd=true", icon: "fa-file-powerpoint", color: "text-orange-500", type: "link" },
                             { title: "מאמר מקורי", url: "https://drive.google.com/file/d/1t78--Aqw-cnUQERyUokcerSYZqniT18j/view?usp=drive_link", icon: "fa-file-pdf", color: "text-red-600", type: "link" },
                             { title: "תקציר המאמר", url: "https://drive.google.com/file/d/105Q2LFnLMcqze_JJpWHbsMI28b0M_neQ/view?usp=drive_link", icon: "fa-file-lines", color: "text-blue-600", type: "link" },
-                            { title: "בוחן לתרגול", url: "https://docs.google.com/forms/d/1tOPShw6EL8nWDel5o8AhQ83pU9VnIthyKKgiuCRm-Yo/copy", icon: "fa-clipboard-check", color: "text-indigo-600", type: "link" }
+                            { title: "בוחן לתרגול", url: "https://docs.google.com/forms/d/1tOPShw6EL8nWDel5o8AhQ83pU9VnIthyKKgiuCRm-Yo/copy", icon: "fa-clipboard-check", color: "text-indigo-600", type: "link" },
+                            { title: "אינפוגרפיקה", url: "#", type: "infographic", imageUrl: "info_state.png", icon: "fa-project-diagram", color: "text-purple-600" }
                         ]
                     }
                 ]
@@ -353,7 +355,8 @@
                             { title: "מצגת השיעור", url: "https://docs.google.com/presentation/d/139iHXqYpGgQOWkzRjIru7EwEemHZNOT1/edit?usp=drive_link&ouid=102051687740778645730&rtpof=true&sd=true", icon: "fa-file-powerpoint", color: "text-orange-500", type: "link" },
                             { title: "מאמר מקורי", url: "https://drive.google.com/file/d/1wNCqxBlkeJYquP0-woeTdfSDBXSYUYGD/view?usp=drive_link", icon: "fa-file-pdf", color: "text-red-600", type: "link" },
                             { title: "תקציר המאמר", url: "https://drive.google.com/file/d/1KMQKyC-UGeV4gTxQBRE0m6LPG152trPm/view?usp=drive_link", icon: "fa-file-lines", color: "text-blue-600", type: "link" },
-                            { title: "בוחן לתרגול", url: "https://docs.google.com/forms/d/1bAJCQC3jIj-sdaruX_hMTLY6IBIOxW7V1zqgeZV74j8/copy", icon: "fa-clipboard-check", color: "text-indigo-600", type: "link" }
+                            { title: "בוחן לתרגול", url: "https://docs.google.com/forms/d/1bAJCQC3jIj-sdaruX_hMTLY6IBIOxW7V1zqgeZV74j8/copy", icon: "fa-clipboard-check", color: "text-indigo-600", type: "link" },
+                            { title: "אינפוגרפיקה", url: "#", type: "infographic", imageUrl: "info_demo.png", icon: "fa-project-diagram", color: "text-purple-600" }
                         ]
                     },
                     {
@@ -386,7 +389,8 @@
                             { title: "מצגת השיעור", url: "https://docs.google.com/presentation/d/1OtbP1i21JV7o2C7VrcpGt1Q6IqwlOZYa/edit?usp=drive_link&ouid=102051687740778645730&rtpof=true&sd=true", icon: "fa-file-powerpoint", color: "text-orange-500", type: "link" },
                             { title: "מאמר מקורי", url: "https://drive.google.com/file/d/1iFkO4bvU11uE_UaBttiUlSV4hN3X9tW-/view?usp=drive_link", icon: "fa-file-pdf", color: "text-red-600", type: "link" },
                             { title: "תקציר המאמר", url: "https://drive.google.com/file/d/136-wkLruLD83xbr2dxPeCb0qQ2dlu3b7/view?usp=drive_link", icon: "fa-file-lines", color: "text-blue-600", type: "link" },
-                            { title: "בוחן לתרגול", url: "https://docs.google.com/forms/d/1kKDAo6wVEjHT1KgVQm2ZlMWiG2KIZlGlH4h-xPU1poE/copy", icon: "fa-clipboard-check", color: "text-indigo-600", type: "link" }
+                            { title: "בוחן לתרגול", url: "https://docs.google.com/forms/d/1kKDAo6wVEjHT1KgVQm2ZlMWiG2KIZlGlH4h-xPU1poE/copy", icon: "fa-clipboard-check", color: "text-indigo-600", type: "link" },
+                            { title: "אינפוגרפיקה", url: "#", type: "infographic", imageUrl: "info_stable.png", icon: "fa-project-diagram", color: "text-purple-600" }
                         ]
                     },
                     {
@@ -419,7 +423,8 @@
                             { title: "מצגת השיעור", url: "https://docs.google.com/presentation/d/1c9htu7KDi8JgM5UxPaVkEuxB6KxCj1SE/edit?usp=drive_link&ouid=102051687740778645730&rtpof=true&sd=true", icon: "fa-file-powerpoint", color: "text-orange-500", type: "link" },
                             { title: "מאמר מקורי", url: "https://drive.google.com/file/d/1_4uM7d0GfFCy_Ze39al1EGlJY-Jrs5KH/view?usp=drive_link", icon: "fa-file-pdf", color: "text-red-600", type: "link" },
                             { title: "תקציר המאמר", url: "https://docs.google.com/document/d/1YwJxPEMXyWlaKV8wKJLoiUfga3TUf62-/edit?usp=drive_link&ouid=102051687740778645730&rtpof=true&sd=true", icon: "fa-file-word", color: "text-blue-700", type: "link" },
-                            { title: "בוחן לתרגול", url: "https://docs.google.com/forms/d/1pl1oqVKQQgu7UekecE9wTpgWMjyFzoc38G5dyRpisxA/copy", icon: "fa-clipboard-check", color: "text-indigo-600", type: "link" }
+                            { title: "בוחן לתרגול", url: "https://docs.google.com/forms/d/1pl1oqVKQQgu7UekecE9wTpgWMjyFzoc38G5dyRpisxA/copy", icon: "fa-clipboard-check", color: "text-indigo-600", type: "link" },
+                            { title: "אינפוגרפיקה", url: "#", type: "infographic", imageUrl: "info_political.png", icon: "fa-project-diagram", color: "text-purple-600" }
                         ]
                     },
                     {
@@ -451,7 +456,8 @@
                             { title: "מצגת השיעור", url: "https://docs.google.com/presentation/d/1H28jDmHPtY1r6fDiTJX7Lynzwb7KxWg5/edit?usp=drive_link&ouid=102051687740778645730&rtpof=true&sd=true", icon: "fa-file-powerpoint", color: "text-orange-500", type: "link" },
                             { title: "מאמר מקורי", url: "https://drive.google.com/file/d/1Sh8yJfuKxCzUTMVkh1RQ6t2se9_UC6wv/view?usp=drive_link", icon: "fa-file-pdf", color: "text-red-600", type: "link" },
                             { title: "תקציר המאמר", url: "https://drive.google.com/file/d/14gnYrJZ6f_E8wloeOvdD-6fyQ50el__x/view?usp=drive_link", icon: "fa-file-lines", color: "text-blue-600", type: "link" },
-                            { title: "בוחן לתרגול", url: "https://docs.google.com/forms/d/1-BSPG8wXWll5yD1GH0hMygLqHEX0j_ESLvge6i8Tcps/copy", icon: "fa-clipboard-check", color: "text-indigo-600", type: "link" }
+                            { title: "בוחן לתרגול", url: "https://docs.google.com/forms/d/1-BSPG8wXWll5yD1GH0hMygLqHEX0j_ESLvge6i8Tcps/copy", icon: "fa-clipboard-check", color: "text-indigo-600", type: "link" },
+                            { title: "אינפוגרפיקה", url: "#", type: "infographic", imageUrl: "info_dict.png", icon: "fa-project-diagram", color: "text-purple-600" }
                         ]
                     }
                 ]
@@ -490,7 +496,8 @@
                             { title: "מצגת השיעור", url: "https://docs.google.com/presentation/d/1UwOF014PQhH5OYp_PXWWl-amgT-SJuSK/edit?usp=drive_link&ouid=102051687740778645730&rtpof=true&sd=true", icon: "fa-file-powerpoint", color: "text-orange-500", type: "link" },
                             { title: "מאמר מקורי", url: "https://drive.google.com/file/d/1YUPe1BEUFd-rz04P-dvq3C4rvXWNNltN/view?usp=drive_link", icon: "fa-file-pdf", color: "text-red-600", type: "link" },
                             { title: "תקציר המאמר", url: "https://drive.google.com/file/d/1OFYRfwqpt9qxCHyWNoox1T9wzeubKtpa/view?usp=drive_link", icon: "fa-file-lines", color: "text-blue-600", type: "link" },
-                            { title: "בוחן לתרגול", url: "https://docs.google.com/forms/d/1ToFGSr6yxv7t50trXEAL06Mand_zbhmYR_SDngMa2fo/copy", icon: "fa-clipboard-check", color: "text-indigo-600", type: "link" }
+                            { title: "בוחן לתרגול", url: "https://docs.google.com/forms/d/1ToFGSr6yxv7t50trXEAL06Mand_zbhmYR_SDngMa2fo/copy", icon: "fa-clipboard-check", color: "text-indigo-600", type: "link" },
+                            { title: "אינפוגרפיקה", url: "#", type: "infographic", imageUrl: "info_groups.png", icon: "fa-project-diagram", color: "text-purple-600" }
                         ]
                     },
                     {
@@ -523,7 +530,8 @@
                             { title: "מצגת השיעור", url: "https://docs.google.com/presentation/d/1M8sfaASdYUtFgZVO6_h1AFtTrEEJ3CTL/edit?usp=drive_link&ouid=102051687740778645730&rtpof=true&sd=true", icon: "fa-file-powerpoint", color: "text-orange-500", type: "link" },
                             { title: "מאמר מקורי", url: "https://drive.google.com/file/d/1qof6_eIEg5k4MCawSNmYN8eCiHHaBylB/view?usp=drive_link", icon: "fa-file-pdf", color: "text-red-600", type: "link" },
                             { title: "תקציר המאמר", url: "https://drive.google.com/file/d/1J62ZkdVptHzKSNL6RVsKXDcoSbyEFpQl/view?usp=drive_link", icon: "fa-file-lines", color: "text-blue-600", type: "link" },
-                            { title: "בוחן לתרגול", url: "https://docs.google.com/forms/d/1-zPWyldu7uVA8il6oEVb49eL3mYIlyiI-_7lgRzvWAc/copy", icon: "fa-clipboard-check", color: "text-indigo-600", type: "link" }
+                            { title: "בוחן לתרגול", url: "https://docs.google.com/forms/d/1-zPWyldu7uVA8il6oEVb49eL3mYIlyiI-_7lgRzvWAc/copy", icon: "fa-clipboard-check", color: "text-indigo-600", type: "link" },
+                            { title: "אינפוגרפיקה", url: "#", type: "infographic", imageUrl: "info_tolerance.png", icon: "fa-project-diagram", color: "text-purple-600" }
                         ]
                     },
                     {
@@ -556,7 +564,8 @@
                             { title: "מצגת השיעור", url: "https://docs.google.com/presentation/d/1YsdBY68DP3bE2eE6tk4OCqOxBGTqHH8g/edit?usp=drive_link&ouid=102051687740778645730&rtpof=true&sd=true", icon: "fa-file-powerpoint", color: "text-orange-500", type: "link" },
                             { title: "מאמר מקורי", url: "https://drive.google.com/file/d/1d6EeJtHNXsVbs3WdJqypNIcq1nP4HP5Y/view?usp=drive_link", icon: "fa-file-pdf", color: "text-red-600", type: "link" },
                             { title: "תקציר המאמר", url: "https://drive.google.com/file/d/1NAvkeGxERLrNiHoCuiiTvPkfJmQRgmj_/view?usp=drive_link", icon: "fa-file-lines", color: "text-blue-600", type: "link" },
-                            { title: "בוחן לתרגול", url: "https://docs.google.com/forms/d/1KsmRe7-ox_pCWUZ9hDLE9AjC7vMt_3EOETizBSMq5IM/copy", icon: "fa-clipboard-check", color: "text-indigo-600", type: "link" }
+                            { title: "בוחן לתרגול", url: "https://docs.google.com/forms/d/1KsmRe7-ox_pCWUZ9hDLE9AjC7vMt_3EOETizBSMq5IM/copy", icon: "fa-clipboard-check", color: "text-indigo-600", type: "link" },
+                            { title: "אינפוגרפיקה", url: "#", type: "infographic", imageUrl: "info_media.png", icon: "fa-project-diagram", color: "text-purple-600" }
                         ]
                     }
                 ]
@@ -628,42 +637,31 @@
         }
 
         async function shareOnWhatsApp() {
-            const textToShare = `צפו באינפוגרפיקה המסכמת את הנושא: ${currentModalTitle} - מאגר מדעי המדינה`;
+            // יצירת הקישור המוחלט לתמונה על סמך כתובת האתר הנוכחית
+            const absoluteImageUrl = new URL(currentModalImage, window.location.href).href;
+            const textToShare = `צפו באינפוגרפיקה המסכמת את הנושא: ${currentModalTitle} - מאגר מדעי המדינה\n${absoluteImageUrl}`;
             
-            // שימוש ב-Web Share API מתקדם שתומך בשיתוף קבצים (עובד מעולה בניידים)
-            if (navigator.share && navigator.canShare) {
+            // נסיון שימוש במנגנון השיתוף של מערכת ההפעלה (במובייל)
+            if (navigator.share) {
                 try {
-                    // מורידים את התמונה מהשרת מאחורי הקלעים כדי לארוז אותה כקובץ
-                    const response = await fetch(currentModalImage);
-                    const blob = await response.blob();
-                    
-                    // מחלצים את סיומת הקובץ
-                    const filename = currentModalImage.split('/').pop() || 'infographic.png';
-                    const file = new File([blob], filename, { type: blob.type });
-
-                    // בודקים אם הדפדפן תומך בשיתוף קבצים (יחזיר True בסמארטפונים)
-                    if (navigator.canShare({ files: [file] })) {
-                        await navigator.share({
-                            files: [file],
-                            title: currentModalTitle,
-                            text: textToShare
-                        });
-                        return; // ברגע שהשיתוף הצליח, אנחנו עוצרים פה.
-                    }
+                    await navigator.share({
+                        title: currentModalTitle,
+                        text: `צפו באינפוגרפיקה המסכמת את הנושא: ${currentModalTitle} - מאגר מדעי המדינה\n`,
+                        url: absoluteImageUrl
+                    });
+                    return;
                 } catch (error) {
-                    console.log('שיתוף קובץ נכשל או בוטל ע"י המשתמש. עובר לחלופת טקסט.', error);
+                    console.log('שיתוף מובנה בוטל או נכשל, עובר לחלופת וואטסאפ מובנית.');
                 }
             }
             
-            // חלופת טקסט למחשבים ולדפדפנים שלא תומכים בשיתוף קבצים ישיר לוואטסאפ
-            const absoluteImageUrl = new URL(currentModalImage, window.location.href).href;
-            const fallbackText = textToShare + "\\n" + absoluteImageUrl;
-            const encodedText = encodeURIComponent(fallbackText);
+            // חלופת API פומבי של וואטסאפ במקרה שאין Web Share API (כמו במחשב)
+            const encodedText = encodeURIComponent(textToShare);
             const url = `https://api.whatsapp.com/send?text=${encodedText}`;
             window.open(url, '_blank');
         }
 
-        // האזנה לאירועי גלילה למען השורה הדקה והדביקה
+        // האזנה לאירועי גלילה למען השורה הדקה והדביקה במחשב
         window.addEventListener('scroll', () => {
             if (!selectedArticle) return;
             
@@ -672,7 +670,7 @@
             
             if (stickyHeader && mainTitle) {
                 const rect = mainTitle.getBoundingClientRect();
-                // אם אזור הכותרת יצא מהמסך, נציג את השורה - כעת מוגדר לעבוד בכל המסכים (גם מובייל)
+                // אם אזור הכותרת יצא מהמסך (כלפי מעלה), נציג את השורה
                 if (rect.bottom < 84) {
                     stickyHeader.classList.remove('-translate-y-full', 'opacity-0', 'invisible');
                     stickyHeader.classList.add('translate-y-0', 'opacity-100', 'visible');
@@ -719,7 +717,7 @@
                     ` : ''}
                 </header>
                 
-                <main class="flex-1 w-full max-w-6xl mx-auto px-4 sm:px-6 py-8 md:py-12 ${selectedArticle ? 'pb-28' : ''}">
+                <main class="flex-1 w-full max-w-6xl mx-auto px-4 sm:px-6 py-8 md:py-12 ${selectedArticle ? 'pb-28 md:pb-12' : ''}">
             `;
 
             if (!selectedArticle) {
@@ -978,8 +976,6 @@
                                     <i class="fa-solid fa-layer-group ml-1"></i> ${chapterTitle}
                                 </span>
                                 <h2 class="text-4xl md:text-5xl font-black serif-font leading-tight">${selectedArticle.title}</h2>
-                                
-                                <!-- התפריט הפנימי הוסר כבקשתך כדי למנוע כפילויות, נשאר רק הסרגל הצף! -->
                             </div>
                         </div>
 
